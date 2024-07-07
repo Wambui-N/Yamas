@@ -1,0 +1,223 @@
+{
+    "menu": {
+      "wines": {
+        "red": [
+          {
+            "name": "Cabernet Sauvignon",
+            "description": "A robust and full-bodied wine with rich flavors of dark fruit, such as blackberry and blackcurrant, complemented by hints of oak, spice, and chocolate. Perfectly pairs with hearty meats and aged cheeses.",
+            "price_per_glass": 16,
+            "price_per_bottle": 64
+          },
+          {
+            "name": "Pinot Noir",
+            "description": "Light to medium-bodied with elegant flavors of cherry, raspberry, and earthy undertones. Its delicate tannins and bright acidity make it a versatile choice for a variety of dishes, from poultry to vegetarian options.",
+            "price_per_glass": 14,
+            "price_per_bottle": 56
+          },
+          {
+            "name": "Malbec",
+            "description": "Known for its deep color and intense flavors of plum, blackberry, and notes of cocoa and tobacco. This smooth and bold wine is ideal for pairing with grilled meats and spicy dishes.",
+            "price_per_glass": 15,
+            "price_per_bottle": 60
+          }
+        ],
+        "white": [
+          {
+            "name": "Chardonnay",
+            "description": "A versatile white wine ranging from crisp and citrusy to rich and buttery. Enjoy aromas of apple, pear, and hints of vanilla. Pairs wonderfully with seafood, poultry, and creamy pastas.",
+            "price_per_glass": 14,
+            "price_per_bottle": 56
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "description": "Fresh and zesty, with vibrant flavors of green apple, lime, and tropical fruits, balanced by herbal notes. A great choice for light dishes, salads, and goat cheese.",
+            "price_per_glass": 12,
+            "price_per_bottle": 48
+          },
+          {
+            "name": "Riesling",
+            "description": "Aromatic and often slightly sweet, with bright acidity and flavors of peach, apricot, and honey. Its versatility makes it a great match for spicy Asian cuisine and rich desserts.",
+            "price_per_glass": 13,
+            "price_per_bottle": 52
+          }
+        ],
+        "rose": [
+          {
+            "name": "Provence Rosé",
+            "description": "Light and dry with delicate flavors of strawberry, raspberry, and citrus. This refreshing rosé is perfect for sipping on a sunny day and pairs well with light salads and seafood.",
+            "price_per_glass": 12,
+            "price_per_bottle": 48
+          },
+          {
+            "name": "Grenache Rosé",
+            "description": "Offers a vibrant and fruity profile with notes of ripe red berries and a hint of spice. Its balanced acidity makes it a great companion for charcuterie and grilled vegetables.",
+            "price_per_glass": 13,
+            "price_per_bottle": 52
+          },
+          {
+            "name": "Tempranillo Rosé",
+            "description": "With a slightly fuller body, this rosé features flavors of cherry, watermelon, and a touch of rose petal. Ideal for pairing with tapas and Mediterranean dishes.",
+            "price_per_glass": 14,
+            "price_per_bottle": 56
+          }
+        ],
+        "sparkling": [
+          {
+            "name": "Champagne",
+            "description": "The epitome of luxury, Champagne offers fine bubbles and complex flavors of citrus, apple, and brioche. Perfect for celebrations and pairs elegantly with oysters, caviar, and soft cheeses.",
+            "price_per_glass": 18,
+            "price_per_bottle": 90
+          },
+          {
+            "name": "Prosecco",
+            "description": "Light and lively with notes of green apple, pear, and a hint of floral. This Italian sparkling wine is ideal for toasting and pairs well with light appetizers and fresh fruits.",
+            "price_per_glass": 10,
+            "price_per_bottle": 40
+          },
+          {
+            "name": "Cava",
+            "description": "A Spanish sparkling wine with crisp acidity and flavors of lemon, lime, and almond. Its refreshing character makes it a versatile choice for a wide range of dishes, from tapas to seafood paella.",
+            "price_per_glass": 11,
+            "price_per_bottle": 44
+          }
+        ]
+      },
+      "cocktails_mocktails": {
+        "signature_cocktails": [
+          {
+            "name": "Mediterranean Mule",
+            "description": "A refreshing twist on the classic mule with vodka, fresh lime juice, ginger beer, and a splash of pomegranate syrup. Served over ice and garnished with a mint sprig and lime wheel.",
+            "price": 14
+          },
+          {
+            "name": "Sunset Spritz",
+            "description": "A vibrant blend of Aperol, prosecco, and soda water with a touch of blood orange syrup. This effervescent cocktail is served over ice and garnished with an orange slice and a sprig of rosemary.",
+            "price": 12
+          },
+          {
+            "name": "Saffron Gin Fizz",
+            "description": "A unique concoction of gin, fresh lemon juice, saffron-infused simple syrup, and a dash of club soda. Shaken to perfection and served with a lemon twist and a sprinkle of saffron threads.",
+            "price": 16
+          },
+          {
+            "name": "Fig & Thyme Martini",
+            "description": "Smooth and sophisticated, combining fig-infused vodka, elderflower liqueur, and a hint of fresh thyme. Shaken with ice and served in a chilled martini glass with a sprig of thyme.",
+            "price": 15
+          }
+        ],
+        "classic_cocktails": [
+          {
+            "name": "Old Fashioned",
+            "description": "A timeless favorite made with bourbon or rye whiskey, sugar, Angostura bitters, and a twist of orange peel. Stirred over ice and garnished with a cherry.",
+            "price": 14
+          },
+          {
+            "name": "Margarita",
+            "description": "A perfect balance of tequila, fresh lime juice, and orange liqueur, served on the rocks with a salted rim. Garnished with a lime wedge.",
+            "price": 12
+          },
+          {
+            "name": "Negroni",
+            "description": "Bold and bitter, featuring gin, Campari, and sweet vermouth, stirred and served over ice with an orange twist.",
+            "price": 13
+          },
+          {
+            "name": "Mojito",
+            "description": "A refreshing Cuban classic with white rum, fresh mint, lime juice, sugar, and a splash of soda water. Muddled and served over ice with a mint sprig and lime wheel.",
+            "price": 12
+          }
+        ],
+        "mocktails": [
+          {
+            "name": "Berry Basil Lemonade",
+            "description": "A delightful blend of muddled fresh berries, basil leaves, lemon juice, and a touch of honey, topped with soda water. Served over ice and garnished with a basil sprig and lemon slice.",
+            "price": 8
+          },
+          {
+            "name": "Cucumber Mint Cooler",
+            "description": "Crisp and invigorating with cucumber slices, mint leaves, lime juice, and a splash of sparkling water. Served over ice and garnished with a cucumber ribbon and mint sprig.",
+            "price": 8
+          },
+          {
+            "name": "Ginger Spice",
+            "description": "A warming mix of ginger syrup, fresh lime juice, and apple juice, with a dash of cinnamon. Served over ice and garnished with a cinnamon stick and lime wheel.",
+            "price": 7
+          },
+          {
+            "name": "Tropical Sunrise",
+            "description": "A layered mocktail with orange juice, pineapple juice, and grenadine, creating a beautiful sunrise effect. Served over ice and garnished with a pineapple slice and cherry.",
+            "price": 7
+          }
+        ]
+      },
+      "food": {
+        "small_plates_appetizers": [
+          {
+            "name": "Bruschetta Trio",
+            "description": "A selection of toasted bread topped with classic tomato basil, creamy avocado with feta, and roasted red pepper with goat cheese. Perfect for sharing.",
+            "price": 12
+          },
+          {
+            "name": "Charcuterie Board",
+            "description": "An artisanal board featuring a variety of cured meats, cheeses, olives, nuts, and seasonal fruits. Served with crusty bread and accompaniments.",
+            "price": 18
+          },
+          {
+            "name": "Calamari Fritti",
+            "description": "Crispy fried calamari served with a zesty lemon aioli and a side of marinara sauce for dipping.",
+            "price": 14
+          },
+          {
+            "name": "Stuffed Mushrooms",
+            "description": "Savory mushrooms filled with a blend of spinach, garlic, and parmesan cheese, baked to golden perfection.",
+            "price": 10
+          }
+        ],
+        "main_courses": [
+          {
+            "name": "Grilled Lamb Chops",
+            "description": "Tender lamb chops marinated in herbs and spices, grilled to your liking and served with roasted garlic mashed potatoes and a mint yogurt sauce.",
+            "price": 32
+          },
+          {
+            "name": "Pan-Seared Sea Bass",
+            "description": "Fresh sea bass fillet with a crispy skin, served with a citrus beurre blanc, sautéed spinach, and garlic-buttered baby potatoes.",
+            "price": 28
+          },
+          {
+            "name": "Truffle Mushroom Risotto",
+            "description": "Creamy Arborio rice infused with truffle oil, wild mushrooms, and parmesan cheese. Finished with a drizzle of truffle oil and fresh parsley.",
+            "price": 24
+          },
+          {
+            "name": "Mediterranean Vegetable Tagine",
+            "description": "A vibrant stew of seasonal vegetables, chickpeas, and apricots, slow-cooked with Moroccan spices and served with fluffy couscous.",
+            "price": 22
+          }
+        ],
+        "desserts": [
+          {
+            "name": "Baklava Cheesecake",
+            "description": "A decadent fusion of creamy cheesecake layered with crisp phyllo dough, honey, and chopped nuts. Served with a drizzle of honey syrup.",
+            "price": 10
+          },
+          {
+            "name": "Chocolate Fondant",
+            "description": "A rich, molten-centered chocolate cake served warm with a scoop of vanilla bean ice cream and fresh berries.",
+            "price": 12
+          },
+          {
+            "name": "Lemon Basil Tart",
+            "description": "A refreshing tart with a zesty lemon filling and a hint of fresh basil, nestled in a buttery shortcrust pastry and topped with a dollop of whipped cream.",
+            "price": 9
+          },
+          {
+            "name": "Affogato",
+            "description": "A classic Italian dessert featuring a scoop of vanilla gelato drowned in a shot of hot espresso. Finished with a sprinkle of cocoa powder.",
+            "price": 8
+          }
+        ]
+      }
+    }
+  }
+  
