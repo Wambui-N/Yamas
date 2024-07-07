@@ -4,8 +4,7 @@ export default function Menu() {
   return (
     <main className="h-full">
       <div className="h-[80vh] bg-[url('/Menu_Hero.png')] bg-cover bg-no-repeat bg-center rounded-xl">
-        <div className="w-full bg-black/20 p-[2rem] h-full flex flex-col justify-between rounded-xl">
-          <div>Yamas</div>
+        <div className="w-full bg-black/20 p-[2rem] h-full flex flex-col justify-end rounded-xl">
           <div>
             <h1
               className="font-fog uppercase text-[150px] leading-none"
