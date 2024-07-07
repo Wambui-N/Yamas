@@ -5,19 +5,19 @@
           {
             "name": "Cabernet Sauvignon",
             "description": "A robust and full-bodied wine with rich flavors of dark fruit, such as blackberry and blackcurrant, complemented by hints of oak, spice, and chocolate. Perfectly pairs with hearty meats and aged cheeses.",
-            "price_per_glass": 16,
+            "price": 16,
             "price_per_bottle": 64
           },
           {
             "name": "Pinot Noir",
             "description": "Light to medium-bodied with elegant flavors of cherry, raspberry, and earthy undertones. Its delicate tannins and bright acidity make it a versatile choice for a variety of dishes, from poultry to vegetarian options.",
-            "price_per_glass": 14,
+            "price": 14,
             "price_per_bottle": 56
           },
           {
             "name": "Malbec",
             "description": "Known for its deep color and intense flavors of plum, blackberry, and notes of cocoa and tobacco. This smooth and bold wine is ideal for pairing with grilled meats and spicy dishes.",
-            "price_per_glass": 15,
+            "price": 15,
             "price_per_bottle": 60
           }
         ],
@@ -25,19 +25,19 @@
           {
             "name": "Chardonnay",
             "description": "A versatile white wine ranging from crisp and citrusy to rich and buttery. Enjoy aromas of apple, pear, and hints of vanilla. Pairs wonderfully with seafood, poultry, and creamy pastas.",
-            "price_per_glass": 14,
+            "price": 14,
             "price_per_bottle": 56
           },
           {
             "name": "Sauvignon Blanc",
             "description": "Fresh and zesty, with vibrant flavors of green apple, lime, and tropical fruits, balanced by herbal notes. A great choice for light dishes, salads, and goat cheese.",
-            "price_per_glass": 12,
+            "price": 12,
             "price_per_bottle": 48
           },
           {
             "name": "Riesling",
             "description": "Aromatic and often slightly sweet, with bright acidity and flavors of peach, apricot, and honey. Its versatility makes it a great match for spicy Asian cuisine and rich desserts.",
-            "price_per_glass": 13,
+            "price": 13,
             "price_per_bottle": 52
           }
         ],
@@ -45,19 +45,19 @@
           {
             "name": "Provence Rosé",
             "description": "Light and dry with delicate flavors of strawberry, raspberry, and citrus. This refreshing rosé is perfect for sipping on a sunny day and pairs well with light salads and seafood.",
-            "price_per_glass": 12,
+            "price": 12,
             "price_per_bottle": 48
           },
           {
             "name": "Grenache Rosé",
             "description": "Offers a vibrant and fruity profile with notes of ripe red berries and a hint of spice. Its balanced acidity makes it a great companion for charcuterie and grilled vegetables.",
-            "price_per_glass": 13,
+            "price": 13,
             "price_per_bottle": 52
           },
           {
             "name": "Tempranillo Rosé",
             "description": "With a slightly fuller body, this rosé features flavors of cherry, watermelon, and a touch of rose petal. Ideal for pairing with tapas and Mediterranean dishes.",
-            "price_per_glass": 14,
+            "price": 14,
             "price_per_bottle": 56
           }
         ],
@@ -65,24 +65,24 @@
           {
             "name": "Champagne",
             "description": "The epitome of luxury, Champagne offers fine bubbles and complex flavors of citrus, apple, and brioche. Perfect for celebrations and pairs elegantly with oysters, caviar, and soft cheeses.",
-            "price_per_glass": 18,
+            "price": 18,
             "price_per_bottle": 90
           },
           {
             "name": "Prosecco",
             "description": "Light and lively with notes of green apple, pear, and a hint of floral. This Italian sparkling wine is ideal for toasting and pairs well with light appetizers and fresh fruits.",
-            "price_per_glass": 10,
+            "price": 10,
             "price_per_bottle": 40
           },
           {
             "name": "Cava",
             "description": "A Spanish sparkling wine with crisp acidity and flavors of lemon, lime, and almond. Its refreshing character makes it a versatile choice for a wide range of dishes, from tapas to seafood paella.",
-            "price_per_glass": 11,
+            "price": 11,
             "price_per_bottle": 44
           }
         ]
       },
-      "cocktails_mocktails": {
+      "cocktails & mocktails": {
         "signature_cocktails": [
           {
             "name": "Mediterranean Mule",

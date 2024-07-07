@@ -1,3 +1,5 @@
+import { Menu_Section } from "@/Components";
+
 export default function Menu() {
   return (
     <main className="h-full">
@@ -19,7 +21,9 @@ export default function Menu() {
           </div>
         </div>
       </div>
-      <div></div>
+      <div>
+        <Menu_Section />
+      </div>
     </main>
   );
 }
