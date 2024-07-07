@@ -1,22 +1,25 @@
 export default function Menu() {
   return (
-    <main>
-      <div className="bg-[url('/Hero.png')] bg-cover bg-no-repeat bg-bottom rounded-xl w-full h-full ">
+    <main className="h-full">
+      <div className="h-[80vh] bg-[url('/Menu_Hero.png')] bg-cover bg-no-repeat bg-center rounded-xl">
         <div className="w-full bg-black/20 p-[2rem] h-full flex flex-col justify-between rounded-xl">
-          <div>Menu</div>
+          <div>Yamas</div>
           <div>
             <h1
               className="font-fog uppercase text-[150px] leading-none"
               style={{ fontFamily: "myFont" }}
             >
-              Yamas
+              Menu
             </h1>
-            <p className="uppercase text-5xl" style={{ fontFamily: "myFont" }}>
-              Sip, Savor, Celebrate.
+            <p className="text-lg lg:w-[60vw] w-full">
+              At Yamas, we celebrate the art of fine wines and crafted
+              cocktails. Step into a world where every drink and dish is a
+              masterpiece, curated to delight your senses.
             </p>
           </div>
         </div>
       </div>
+      <div></div>
     </main>
   );
 }
