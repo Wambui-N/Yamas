@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <main className="w-full h-full grid grid-cols-7 gap-[1rem]">
-      <div className="bg-[url('/Hero.png')] bg-cover bg-no-repeat bg-bottom rounded-xl col-span-5 ">
+    <main className="h-full grid grid-cols-7 gap-[1rem]">
+      <div className="bg-[url('/Hero.png')] bg-cover bg-no-repeat bg-bottom rounded-xl col-span-5 h-full">
         <div className="w-full bg-black/20 p-[2rem] h-full flex flex-col justify-between rounded-xl">
           <div>Menu</div>
           <div>
