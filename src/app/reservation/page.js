@@ -2,8 +2,8 @@ import { Form } from "@/Components";
 
 export default function Reservation() {
   return (
-    <main className="grid grid-cols-5 gap-8">
-      <div className="col-span-3 h-[80vh] bg-[url('/Reserve.png')] bg-cover bg-no-repeat bg-bottom rounded-xl">
+    <main className="grid grid-cols-5 gap-8 h-full">
+      <div className="col-span-3 h-full bg-[url('/Reserve.png')] bg-cover bg-no-repeat bg-bottom rounded-xl">
         <div className="w-full bg-black/40 p-[2rem] h-full flex flex-col justify-end rounded-xl">
           <p style={{ fontFamily: "myFont" }} className="text-5xl uppercase">
             Reserve your spot for an unforgettable dining experience.

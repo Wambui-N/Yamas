@@ -62,6 +62,25 @@ const Form = () => {
             },
           })}
         />
+
+        <input
+          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          type="date"
+          {...register("date", {
+            required: "This field is required",
+          })}
+        />
+        {errors.date && <p className="text-red-500">{errors.date.message}</p>}
+
+        <input
+          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          type="time"
+          {...register("time", {
+            required: "This field is required",
+          })}
+        />
+        {errors.time && <p className="text-red-500">{errors.time.message}</p>}
+
         {errors.people && (
           <p className="text-red-500">{errors.people.message}</p>
         )}

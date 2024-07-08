@@ -33,10 +33,10 @@ export default function page() {
             </p>
           </Link>
         </div>
-        <div className="bg-[url('/Gallery.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
-          <Link href="/gallery" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
+        <div className="bg-[url('/contact.jpg')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
+          <Link href="/contact" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
             <p>
-              Gallery <span className="w-2 h-2">&#129122;</span>
+              Contact <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
         </div>

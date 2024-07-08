@@ -20,8 +20,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="">
-          <Link href="/gallery" className="uppercase text-xs font-light tracking-wide">
-            Gallery
+          <Link href="/contact" className="uppercase text-xs font-light tracking-wide">
+            contact
           </Link>
         </li>
         <li className="bg-primary px-4 py-2 rounded-lg cursor-pointer">
