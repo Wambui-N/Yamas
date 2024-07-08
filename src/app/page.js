@@ -4,7 +4,7 @@ export default function page() {
   return (
     <main className="h-full grid grid-cols-7 gap-[1rem]">
       <div className="bg-[url('/Hero.png')] bg-cover bg-no-repeat bg-bottom rounded-xl col-span-5 h-full">
-        <div className="w-full bg-black/40 p-[2rem] h-full flex flex-col justify-end rounded-xl">
+        <div className="w-full bg-black/30 p-[2rem] h-full flex flex-col justify-end rounded-xl">
           <div>
             <h1
               className="uppercase text-[150px] leading-none"
@@ -20,21 +20,21 @@ export default function page() {
       </div>
       <div className="col-span-2 grid grid-rows-3 gap-4">
         <div className="bg-[url('/Menu.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
-          <Link href="/menu" className="bg-black px-6 py-2 rounded-tl-lg">
+          <Link href="/menu" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
             <p>
               Menu <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
         </div>
         <div className="bg-[url('/Reservation.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
-          <Link href="/reservation" className="bg-black px-6 py-2 rounded-tl-lg">
+          <Link href="/reservation" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
             <p>
               Reservation <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
         </div>
         <div className="bg-[url('/Gallery.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
-          <Link href="/gallery" className="bg-black px-6 py-2 rounded-tl-lg">
+          <Link href="/gallery" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
             <p>
               Gallery <span className="w-2 h-2">&#129122;</span>
             </p>

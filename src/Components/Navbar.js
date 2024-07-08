@@ -24,8 +24,8 @@ const Navbar = () => {
             Gallery
           </Link>
         </li>
-        <li className="bg-primary px-4 py-2 rounded-lg">
-          <Link href="/menu" className="uppercase text-xs font-semibold">
+        <li className="bg-primary px-4 py-2 rounded-lg cursor-pointer">
+          <Link href="/reservation" className="uppercase text-xs font-semibold">
             Book a table
           </Link>
         </li>
