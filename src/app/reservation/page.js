@@ -2,7 +2,7 @@ import { Form } from "@/Components";
 
 export default function Reservation() {
   return (
-    <main className="min-h-[100vh] grid md:grid-cols-5 grid-cols-1 grid-rows-2 md:grid-rows-1 gap-8">
+    <main className="min-h-[90vh] grid md:grid-cols-5 grid-cols-1 grid-rows-2 md:grid-rows-1 gap-8">
       <div className="md:col-span-3 row-span-1 h-full bg-[url('/Reserve.png')] bg-cover bg-no-repeat bg-bottom rounded-xl">
         <div className="w-full bg-black/40 p-[2rem] h-full flex flex-col justify-end rounded-xl">
           <p style={{ fontFamily: "myFont" }} className="lg:text-5xl md:text-3xl text-xl uppercase">
