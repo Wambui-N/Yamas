@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="absolute top-8 left-8 bg-black p-4 rounded-2xl flex flex-col gap-2">
-      <ul className="flex flex-row items-center gap-6">
+    <div className="lg:absolute static lg:top-8 md:top-5 top-3 lg:left-8 md:left-5 left-3 bg-black md:p-4 px-0 py-2 rounded-2xl flex flex-col gap-2">
+      <ul className="flex flex-row items-center lg:gap-6 gap-2">
         <li className="">
           <Link
             href="/"
@@ -32,7 +32,7 @@ const Navbar = () => {
         </li>
         <li className="bg-primary px-4 py-2 rounded-lg cursor-pointer">
           <Link href="/reservation" className="uppercase text-xs font-semibold">
-            Book a table
+            Reserve
           </Link>
         </li>
         <li className="flex justify-end gap-4">
