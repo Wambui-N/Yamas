@@ -4,7 +4,7 @@ export default function Gallery() {
   return (
     <main className="h-full grid grid-rows-2">
       <div className="bg-[url('/Gift_Card.png')] bg-cover bg-no-repeat bg-center rounded-xl"></div>
-      <div className="p-2 h-full flex flex-col gap-4 justify-end items-center rounded-xl">
+      <div className="p-2 h-full flex flex-col gap-4 justify-center items-center rounded-xl">
         <div style={{ fontFamily: "myFont" }} className="uppercase text-center text-xl tracking-wide flex flex-col justify-between gap-2">
           <div className="">
             <p className="">+254 700 000 000</p>
@@ -12,7 +12,7 @@ export default function Gallery() {
             <p className="">1 SOHO ST LDN W1D 3GT</p>
           </div>
           <h1
-            className="font-fog uppercase text-[150px] leading-none"
+            className="font-fog uppercase lg:text-9xl md:text-7xl text-5xl leading-none"
             style={{ fontFamily: "myFont" }}
           >
             Yamas

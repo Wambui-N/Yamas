@@ -24,10 +24,10 @@ const Menu = () => {
         {Object.keys(categories).map((subCategory) => (
           <div key={subCategory} className="py-12 flex flex-col gap-3">
             <div className=" flex justify-between">
-              <h5 className="uppercase tracking-wide text-2xl">
+              <h5 className="uppercase tracking-wide md:text-2xl text-xl">
                 {subCategory.replace(/_/g, " ")}
               </h5>
-              <div className="flex gap-5">
+              <div className="flex gap-5 text-sm">
                 <p className="">Price</p>
                 {selectedCategory === "wines" && (
                       <p>Bottle</p>
@@ -38,19 +38,19 @@ const Menu = () => {
               <div key={index} className="my-4 flex flex-col gap-1">
                 <div className="flex flex-row justify-between">
                   <h6
-                    className="text-lg uppercase tracking-widest"
+                    className="md:text-lg text-sm uppercase tracking-widest"
                     style={{ fontFamily: "myFont" }}
                   >
                     {item.name}
                   </h6>
-                  <div className="flex gap-10">
+                  <div className="flex gap-10 text-xs">
                     <p className="">${item.price}</p>
                     {selectedCategory === "wines" && (
                       <p>${item.price_per_bottle}</p>
                     )}
                   </div>
                 </div>
-                <p className="md:w-3/4 w-full text-sm">{item.description}</p>
+                <p className="md:w-3/4 w-full md:text-sm text-xs">{item.description}</p>
               </div>
             ))}
           </div>
@@ -61,12 +61,12 @@ const Menu = () => {
 
   return (
     <div className="py-8">
-      <ul className="px-96 flex flex-row justify-between">
+      <ul className="lg:px-60 md:px-32 px-2 flex flex-row justify-between">
         {Object.keys(db.menu).map((category) => (
           <li key={category}>
             <button
               onClick={() => handleCategoryClick(category)}
-              className={`inline-flex items-center justify-center capitalize px-8 py-1 tracking-wide font-semibold border rounded-2xl text-white ${
+              className={`inline-flex flex-1 items-center justify-center capitalize sm:px-8 px-4 py-1 tracking-wide font-semibold border rounded-2xl text-white md:text-sm text-xs ${
                 selectedCategory === category
                   ? "bg-primary border-primary"
                   : "bg-black border-white hover:bg-primary hover:border-primary"
@@ -77,7 +77,7 @@ const Menu = () => {
           </li>
         ))}
       </ul>
-      <div className="px-64 py-12">{renderMenuItems()}</div>
+      <div className="md:px-32 px-2 py-12">{renderMenuItems()}</div>
     </div>
   );
 };
