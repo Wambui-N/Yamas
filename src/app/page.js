@@ -61,7 +61,7 @@ export default async function page() {
             href="/menu"
             className="bg-black px-6 py-2 rounded-tl-2xl uppercase text-sm"
           >
-            <p style={{ fontFamily: "myFont" }} className="tracking-wide">
+            <p className="tracking-wide">
               Menu <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
@@ -102,7 +102,7 @@ export default async function page() {
             href="/reservation"
             className="bg-black px-6 py-2 rounded-tl-2xl uppercase text-sm"
           >
-            <p style={{ fontFamily: "myFont" }} className="tracking-wide">
+            <p className="tracking-wide">
               Reservation <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
@@ -143,7 +143,7 @@ export default async function page() {
             href="/contact"
             className="bg-black px-6 py-2 rounded-tl-2xl uppercase text-sm"
           >
-            <p style={{ fontFamily: "myFont" }} className="tracking-wide">
+            <p className="tracking-wide">
               Contact <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>

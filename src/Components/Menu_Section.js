@@ -61,7 +61,7 @@ const Menu = () => {
 
   return (
     <div className="py-8">
-      <ul className="lg:px-60 md:px-32 px-2 flex flex-row justify-between">
+      <ul className="md:px-80 px-2 flex flex-row justify-between">
         {Object.keys(db.menu).map((category) => (
           <li key={category}>
             <button
@@ -77,7 +77,7 @@ const Menu = () => {
           </li>
         ))}
       </ul>
-      <div className="md:px-32 px-2 py-12">{renderMenuItems()}</div>
+      <div className="md:px-60 px-2 py-12">{renderMenuItems()}</div>
     </div>
   );
 };
