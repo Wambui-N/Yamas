@@ -21,21 +21,21 @@ export default function page() {
       <div className="h-full lg:col-span-2 md:row-span-2 row-span-3 flex lg:flex-col md:flex-row flex-col gap-4">
         <div className="bg-[url('/Menu.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
           <Link href="/menu" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
-            <p>
+            <p style={{ fontFamily: "myFont" }} className='tracking-wide'>
               Menu <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
         </div>
         <div className="bg-[url('/Reservation.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
           <Link href="/reservation" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
-            <p>
+            <p style={{ fontFamily: "myFont" }} className='tracking-wide'>
               Reservation <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
         </div>
         <div className="bg-[url('/Gift_Card.png')] bg-cover bg-center rounded-xl w-full h-full flex items-end justify-end">
           <Link href="/contact" className="bg-black px-6 py-2 rounded-tl-lg uppercase text-sm">
-            <p>
+            <p style={{ fontFamily: "myFont" }} className='tracking-wide'>
               Contact <span className="w-2 h-2">&#129122;</span>
             </p>
           </Link>
