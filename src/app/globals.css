@@ -8,5 +8,5 @@
 }
 
 body{
-  @apply bg-black text-white p-[1rem] w-screen h-[100vh];
+  @apply bg-black text-white p-[1rem] w-screen h-[100vh] max-w-[100vw] overflow-x-hidden;
 }
