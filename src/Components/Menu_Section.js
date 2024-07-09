@@ -27,7 +27,7 @@ const Menu = () => {
               <h5 className="uppercase tracking-wide md:text-2xl text-xl">
                 {subCategory.replace(/_/g, " ")}
               </h5>
-              <div className="flex gap-5 text-sm">
+              <div className="flex gap-5 text-lg">
                 <p className="">Price</p>
                 {selectedCategory === "wines" && (
                       <p>Bottle</p>
@@ -43,7 +43,7 @@ const Menu = () => {
                   >
                     {item.name}
                   </h6>
-                  <div className="flex gap-10 text-xs">
+                  <div className="flex gap-12 text-sm">
                     <p className="">${item.price}</p>
                     {selectedCategory === "wines" && (
                       <p>${item.price_per_bottle}</p>

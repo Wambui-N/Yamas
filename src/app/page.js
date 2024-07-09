@@ -4,7 +4,7 @@ export default function page() {
   return (
     <main className="h-full grid lg:grid-cols-7 lg:grid-rows-1 grid-cols-1 md:grid-rows-7 grid-row-5 gap-[1rem]">
       <div className="bg-[url('/Hero.png')] bg-cover bg-no-repeat bg-bottom rounded-xl lg:col-span-5 md:row-span-5 row-span-2 h-full">
-        <div className="w-full bg-black/30 p-[2rem] h-full flex flex-col justify-end rounded-xl">
+        <div className="w-full bg-black/40 p-[2rem] h-full flex flex-col justify-end rounded-xl">
           <div>
             <h1
               className="uppercase lg:text-9xl md:text-7xl text-4xl leading-none"
