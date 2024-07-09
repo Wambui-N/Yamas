@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="md:absolute static lg:top-8 md:top-5 top-3 lg:left-8 md:left-5 left-3 bg-black md:p-4 px-0 py-2 rounded-xl flex flex-col gap-2">
+    <div className="md:absolute static lg:top-8 md:top-5 top-3 lg:left-8 md:left-5 left-3 bg-black/65 md:p-4 px-0 py-2 rounded-xl flex flex-col gap-2">
       <ul className="flex flex-row items-center lg:gap-6 gap-2">
         <li className="">
           <Link
