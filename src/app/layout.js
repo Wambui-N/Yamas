@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${raleway.className} relative`}>
+      <body className={`${raleway.className} relative page`}>
         <Navbar />
         {children}</body>
     </html>

@@ -1,9 +1,6 @@
 import Link from "next/link";
 
-export default async function page() {
-  await new Promise((resolve) => {
-    setTimeout(resolve, 1000);
-  });
+export default function page() {
   return (
     <main className="h-full grid lg:grid-cols-7 lg:grid-rows-1 grid-cols-1 md:grid-rows-7 grid-row-5 gap-[1rem]">
       <div className="bg-[url('/Hero.png')] bg-cover bg-no-repeat bg-bottom rounded-xl lg:col-span-5 lg:row-span-1 md:row-span-5 row-span-2 h-full">
