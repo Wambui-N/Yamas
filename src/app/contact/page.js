@@ -7,7 +7,7 @@ export default async function Gallery() {
       <div className="p-2 h-full flex flex-col gap-4 justify-center items-center rounded-xl">
         <div
           style={{ fontFamily: "myFont" }}
-          className="uppercase text-center text-xl tracking-wide flex flex-col justify-between gap-2"
+          className="uppercase text-center text-xl text-primary tracking-wide flex flex-col justify-between gap-2"
         >
           <div className="">
             <p className="">+254 700 000 000</p>

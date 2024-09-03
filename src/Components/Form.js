@@ -23,7 +23,7 @@ const Form = () => {
     <div>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
         <input
-          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          className="bg-white text-black border border-primary px-4 py-2 text-sm font-light rounded-xl"
           placeholder="Name"
           {...register("name", {
             required: "This field is required",
@@ -36,7 +36,7 @@ const Form = () => {
         {errors.name && <p className="text-red-500">{errors.name.message}</p>}
 
         <input
-          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          className="bg-white text-black border border-primary px-4 py-2 text-sm font-light rounded-xl"
           placeholder="Email"
           type="email"
           {...register("email", {
@@ -51,7 +51,7 @@ const Form = () => {
         {errors.email && <p className="text-red-500">{errors.email.message}</p>}
 
         <input
-          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          className="bg-white text-black border border-primary px-4 py-2 text-sm font-light rounded-xl"
           placeholder="People"
           type="number"
           {...register("people", {
@@ -62,9 +62,12 @@ const Form = () => {
             },
           })}
         />
+        {errors.people && (
+          <p className="text-red-500">{errors.people.message}</p>
+        )}
 
         <input
-          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          className="bg-white text-black border border-primary px-4 py-2 text-sm font-light rounded-xl"
           type="date"
           {...register("date", {
             required: "This field is required",
@@ -73,7 +76,7 @@ const Form = () => {
         {errors.date && <p className="text-red-500">{errors.date.message}</p>}
 
         <input
-          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          className="bg-white text-black border border-primary px-4 py-2 text-sm font-light rounded-xl"
           type="time"
           {...register("time", {
             required: "This field is required",
@@ -81,12 +84,10 @@ const Form = () => {
         />
         {errors.time && <p className="text-red-500">{errors.time.message}</p>}
 
-        {errors.people && (
-          <p className="text-red-500">{errors.people.message}</p>
-        )}
+        
 
         <textarea
-          className="bg-black text-white border border-white px-4 py-2 text-sm font-light rounded-xl"
+          className="bg-white text-black border border-primary px-4 py-2 text-sm font-light rounded-xl"
           placeholder="Message"
           {...register("message", {
             maxLength: {
@@ -102,7 +103,7 @@ const Form = () => {
         <input
           type="submit"
           value="Reserve"
-          className="bg-white text-lg font-bold text-primary rounded-xl py-1"
+          className="bg-primary text-lg font-bold text-white rounded-xl py-1"
         />
       </form>
       {/* Optional: Show the form submission result */}
