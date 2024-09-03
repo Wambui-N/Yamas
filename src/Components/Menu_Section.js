@@ -38,7 +38,7 @@ const Menu = () => {
               <div key={index} className="my-4 flex flex-col gap-1">
                 <div className="flex flex-row justify-between">
                   <h6
-                    className="md:text-lg text-sm uppercase tracking-widest"
+                    className="md:text-lg text-sm text-primary uppercase tracking-widest"
                     style={{ fontFamily: "myFont" }}
                   >
                     {item.name}
@@ -66,10 +66,10 @@ const Menu = () => {
           <li key={category}>
             <button
               onClick={() => handleCategoryClick(category)}
-              className={`inline-flex flex-1 items-center justify-center capitalize sm:px-8 px-4 py-1 tracking-wide font-semibold border rounded-2xl text-white md:text-sm text-xs ${
+              className={`inline-flex flex-1 items-center justify-center capitalize sm:px-8 px-4 py-1 tracking-wide font-semibold border rounded-2xl  md:text-sm text-xs ${
                 selectedCategory === category
-                  ? "bg-primary border-primary"
-                  : "bg-black border-white hover:bg-primary hover:border-primary"
+                  ? "bg-primary border-primary text-white"
+                  : "bg-white border-primary hover:bg-primary hover:border-primary text-primary hover:text-white"
               }`}
             >
               {category}
