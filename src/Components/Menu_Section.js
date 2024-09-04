@@ -24,7 +24,7 @@ const Menu = () => {
         {Object.keys(categories).map((subCategory) => (
           <div key={subCategory} className="py-12 flex flex-col gap-3">
             <div className=" flex justify-between">
-              <h5 className="uppercase tracking-wide md:text-2xl text-xl">
+              <h5 className="uppercase font-medium text-primary tracking-wide md:text-2xl text-xl">
                 {subCategory.replace(/_/g, " ")}
               </h5>
               <div className="flex gap-5 text-lg">
